@@ -6,6 +6,30 @@ html, body{
     box-sizing: border-box;
     background: #161616;
 }
+.del{
+    display: flex;
+}
+.del2{
+    width: 50px;
+}
+.wdth{
+    width: 100%;
+}
+.del3{
+    flex-direction: column;
+}
+.vertical{
+    transform: rotate(90deg);
+}
+.sp{
+    text-align: start;
+}
+.sp2{
+    align-items: center;
+}
+.tra{
+    transform: rotate(-90deg);
+}
 
 .container{
     height: 100vh;
@@ -54,4 +78,31 @@ html, body{
     font-size: 36px;
     -webkit-text-stroke: 2px white;
     text-transform: uppercase;
+}
+.forms{
+    padding: 50px 0;
+}
+.wdt{
+    width: 60vw;
+    margin: auto;
+    color: white;
+    padding: 10px 0;
+}
+#skl{
+    display: flex;
+}
+.actualy{
+    align-self: center;
+    text-align: center;
+}
+#btn1{
+    align-self: center;
+}
+#skl ul{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+#skl li{
+    font-size: 30px;
 }

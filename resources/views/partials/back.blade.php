@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container ">
     <article class="img">
         <div class="img-wrapper">
             <div class="img-inner">
