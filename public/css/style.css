@@ -30,6 +30,23 @@ html, body{
 .tra{
     transform: rotate(-90deg);
 }
+.z1{
+    position: absolute;
+    left: 30%;
+    z-index: 1;
+}
+.z2{
+    position: absolute;
+    top: 350px;
+    left: 44.5%;
+    z-index: 2;
+}
+.z3{
+    position: absolute;
+    top: 350px;
+    left: 44.5%;
+    z-index: 2;
+}
 
 .container{
     height: 100vh;
