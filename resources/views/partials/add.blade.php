@@ -1,6 +1,6 @@
 <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    Launch demo modal
+    <i class="fa-solid fa-plus"></i>
 </button>
 
 <!-- Modal -->
@@ -8,27 +8,28 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Formulaire</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form>
+                <form action="/proj" method="POST">
+                    @csrf
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">name</label>
-                        <input type="email" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">date</label>
-                        <input type="password" name="date" class="form-control" id="exampleInputPassword1">
+                        <input type="text" name="date" class="form-control" id="exampleInputPassword1">
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">description</label>
-                        <input type="password" name="description" class="form-control" id="exampleInputPassword1">
+                        <input type="text" name="description" class="form-control" id="exampleInputPassword1">
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label">URL</label>
-                        <input type="password" name="url" class="form-control" id="exampleInputPassword1">
+                        <input type="text" name="url" class="form-control" id="exampleInputPassword1">
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>

@@ -25,4 +25,10 @@ class ProjectController extends Controller
         $store -> save();
         return redirect('/');
     }
+    public function destroy($id){
+        $delete = Project::find($id);
+        $delete -> delete();
+
+        return redirect()->back();
+    }
 }
